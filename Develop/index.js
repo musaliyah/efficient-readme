@@ -2,7 +2,7 @@
 
 const inquirer = require ('inquirer');
 const fs = require ('fs');
-const generateMarkdown = require ('../readme generator/utils/generateMarkdown')
+const generateMarkdown = require ('../Develop/utils/generateMarkdown')
 
 // TODO: Create an array of questions for user input
 const questions = [
@@ -47,7 +47,7 @@ const questions = [
         type: 'list',
         name: 'license',
         message: 'Please select what license type your project is -> ',
-        choices:['Apache', 'Boost', 'BSD', 'Creative Commons', 'Eclipse', 'GNU', 'IBM', 'ISC', 'MIT', 'Mozilla', 'Open Database', 'Public Domain Dedication and License', 'Perl', 'SIL', 'Unlicense']
+        choices:['Apache', 'Boost', 'BSD', 'GNU', 'IBM', 'ISC', 'MIT','Unlicense']
     },
     {
         type: 'input',
