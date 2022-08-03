@@ -16,7 +16,7 @@ const questions = [
     {
         type: 'input',
         name: 'description',
-        message: 'Provide a brief description of your project: '
+        message: 'Provide a brief description of your project -> '
     },
     //Installation
     {
@@ -28,7 +28,7 @@ const questions = [
     {
         type: 'input',
         name: 'usage',
-        message: 'Provide instructions of how to use your project: '
+        message: 'Provide instructions of how to use your project -> '
     },
     // Credits
     {
@@ -46,7 +46,7 @@ const questions = [
     {
         type: 'list',
         name: 'license',
-        message: 'Please select what license type your project is: ',
+        message: 'Please select what license type your project is -> ',
         choices:['Apache', 'Boost', 'BSD', 'Creative Commons', 'Eclipse', 'GNU', 'IBM', 'ISC', 'MIT', 'Mozilla', 'Open Database', 'Public Domain Dedication and License', 'Perl', 'SIL', 'Unlicense']
     },
     {
